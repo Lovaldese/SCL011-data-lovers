@@ -1,19 +1,11 @@
 /*barra de menu desplegable*/
 /* estilos generales*/
-body{
-   background: image()
-}
-h1{
-   background: black;
-   padding: 1.5cm;
-}
- h1{
-   text-align: center;
-   color: aqua;
+
+
 
  }
    
- nav ul{
+ nav > ul{
     list-style: none; /* para quitar las viñetas*/
     padding: 0; /* para quitarle la sangria y queden en una misma columna*/
 }
@@ -33,7 +25,7 @@ nav  a {
 
 }
 nav a:hover{
-    background: rgba(0,0,0,.5);
+    background:greenyellow
 }
 /* nav li ul{
    display: none; /* cualquier ul que este dentro de otro ul ocultarlo
@@ -44,7 +36,7 @@ nav li:hover >ul {
 
 /*primer nivel*/
 nav > ul{
-  background: dimgray;
+  background:green;
     display: table; /* un elemento tomelas dimensiones de su contenido*/
     width: 100%; /* para que tome el ancho de la pagina*/
 }
@@ -53,7 +45,7 @@ nav > ul li{  /* solo los hijos de los ul y nav */
 }
 /*segundo nivel */
 nav li li{
-    background: dimgray;
+    background:green;
     max-height: 0;/*su altura maxima sera 0*/
     transition: hidden;
     transition: all .4s;

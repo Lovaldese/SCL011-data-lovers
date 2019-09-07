@@ -23,21 +23,14 @@ personajes.addEventListener("click", () => {
 
     //elemento que contenga mi imagen
      let img= document.createElement("img");
-     
-     
+    
      // contenido de la etiqueta img
       let contimage= (data[i].image);
-
       // asignar el padre al hijo
       img.setAttribute("src",contimage);
-
       //insertarlo en html mediante el contenedor "root"
-
       contenedorpadre.appendChild(img);
     
- 
-
-
     // const image1 = document.createElement("image");
     // let imagen = document.createTextNode(image1);
     // image.appendChild(imagen);
