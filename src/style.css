@@ -1,11 +1,7 @@
+
 /*barra de menu desplegable*/
-/* estilos generales*/
-
-
-
- }
-   
- nav > ul{
+/* estilos generales*/  
+ nav ul{
     list-style: none; /* para quitar las viñetas*/
     padding: 0; /* para quitarle la sangria y queden en una misma columna*/
 }
@@ -25,7 +21,7 @@ nav  a {
 
 }
 nav a:hover{
-    background:greenyellow
+    background: greenyellow;
 }
 /* nav li ul{
    display: none; /* cualquier ul que este dentro de otro ul ocultarlo
@@ -45,7 +41,7 @@ nav > ul li{  /* solo los hijos de los ul y nav */
 }
 /*segundo nivel */
 nav li li{
-    background:green;
+    background: green;
     max-height: 0;/*su altura maxima sera 0*/
     transition: hidden;
     transition: all .4s;
@@ -69,4 +65,5 @@ sub { font-size: 50px;
 }
 
 /* parrafos*/
+
 
