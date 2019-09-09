@@ -11,16 +11,16 @@
 //console.log(RICKANDMORTY.results[i].type); //del tipo
 
 
-// window.filter = {
-//     species: (dataRickAndMorty,condition) =>{
+ window.filter = {
+species: (data,condition) =>{
   
-//       let speciesResult = [""];
-//       for(let i=0; i < dataRickAndMorty.length; i++){
-//         if (dataRickAndMorty[i].species == condition){
-//           console.log(dataRickAndMorty[i].species);
-//         };
-//       };
-//       return speciesResult;
-//     }
-//   }
+   let speciesResult = [""];
+  for(let i=0; i < data.length; i++){
+   if (data[i].species == condition){
+     console.log(data[i].species);
+         };
+   };
+   return speciesResult;
+ }
+  }
   

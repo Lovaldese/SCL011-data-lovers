@@ -3,7 +3,18 @@
 /* Manejo del DOM */
 //declaro la data data  con la que voy a trabahjar
 const data = RICKANDMORTY.results;
-
+window.filter = {
+    species: (data,condition) =>{
+      
+       let speciesResult = [""];
+      for(let i=0; i < data.length; i++){
+       if (data[i].species == condition){
+         console.log(data[i].species);
+             };
+       };
+       return speciesResult;
+     }
+      }
 
 //rrecorro la data para luego imprimir imagen y name de los personajes
 for (let i = 0; i < data.length; i++) {
@@ -23,11 +34,11 @@ const personajes = document.getElementById("personajes");
 personajes.addEventListener("click", () => {
 
     //elemento que contenga lo que quiero crear en html
-
-     let card= document.createElement("div")
+     
+     let card= document.createElement("div");
      let img= document.createElement("img");
      let texto= document.createElement("h5");
-     let textos= document.createElement("h3")
+     let textos= document.createElement("h5")
      //  buscar el contenido de la etiqueta creada
     
      let conttextos= (data[i].species); 
@@ -43,7 +54,8 @@ personajes.addEventListener("click", () => {
        contenedorpadre.appendChild(img);
        contenedorpadre.appendChild(texto);
        card.appendChild(texto);
-       contenedorpadre.appendChild(textos) 
+       contenedorpadre.appendChild(textos);
+       card.appendChild(textos);
       contenedorpadre.appendChild(card);
 
     //   let condition = personajes.value;
@@ -56,11 +68,21 @@ personajes.addEventListener("click", () => {
 //  filtrar
 
 const filterSelector = document.getElementById("filterSelector");
-filterSelector.addEventListener('click', () => {
- let condition = filterSelector.value; /* Variable de la condición, esta nos dará el valor que usuario elija para filtrar */
+filterSelector.addEventListener('change', () => {
+  let condition = filterSelector.value; /* Variable de la condición, esta nos dará el valor que usuario elija para filtrar */
+document.getElementById("filterSelector").innerHTML 
+<label>Elije una categoria:
+<select name="selector" id="filterSelector">
+    <option value="">Seleccione</option>
+    <option value="Human">Humanos</option>
+    <option value="Alien">Aliens</option>
+    <option value="Humanoid">Humanoides</option>
+  </select>
+</label>
   console.log(condition);
-  
- let filterSpeciesResult = window.filter.species(data,condition);  
+
+  speciesResult= window.innerHTML.filter.species(data,condition);  
 });
 
 
+// document.getElementById(selector).innerHTML=
