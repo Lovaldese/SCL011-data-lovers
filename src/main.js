@@ -60,7 +60,11 @@ filterSelector.addEventListener('click', () => {
  let condition = filterSelector.value; /* Variable de la condición, esta nos dará el valor que usuario elija para filtrar */
   console.log(condition);
   
- let filterSpeciesResult = window.filter.species(data,condition);  
+ let filterSelector = window.filter.species(data,condition);  
 });
+ // filtrar
 
+ //let personajesRick= ["gender", "name"];
+ //const result = personajesRick.filter(personajesRick => personajesRick.length >493);
+ //console.log(result);
 
