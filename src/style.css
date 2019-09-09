@@ -64,6 +64,18 @@ sub { font-size: 50px;
 
 }
 
-/* parrafos*/
 
+/* tarjetas*/
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+    /* para agrandar o achicar el video  */
+iframe{
+    width: 560px;
+    height: 315px;
+}
+   
 
