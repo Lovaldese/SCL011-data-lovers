@@ -14,38 +14,15 @@
    
 
     <header>
+      <!-- titulo -->
       <h1> Rick and Morty </h1>
+      <!-- menu desplegable -->
       <nav>
         <ul class="menu">
          <li class="li-menu" id= "Inicio"><a href="#">Inicio</a></li>
-         <li class="li-menu" id="personajes"><a href="#">Personajes</a></li> 
+         <li class="li-menu" id="personajes"><a href="#">Personajes</a></li>
          <li><a href="#">Datos curiosos</a></li>
-         <li><a href="#">Episodios aclamados por la critica</a>
-          <ul>
-            <li><a href="#">Temporada 1</a>
-             <ul>
-              <li><a href="#">Capitulo 1</a></li>
-              <li><a href="#">Capitulo 2</a></li>
-                <li><a href="#">Capitulo 3</a></li>
-                <li><a href="#">Capitulo 4</a></li>
-              </ul>
-              </li>
-            <li><a href="#">Temporada 2</a>
-             <ul>
-               <li><a href="#">Capitulo 1</a></li>
-               <li><a href="#">Capitulo 2</a></li>
-               <li><a href="#">Capitulo 3</a></li>
-               <li><a href="#">Capitulo 4</a></li>
-            </ul>
-             </li>   
-            <li><a href="#">Temporada 3</a>
-              <ul>
-              <li><a href="#">Capitulo 1</a></li>
-              <li><a href="#">Capitulo 2</a></li>
-              <li><a href="#">Capitulo 3</a></li>
-              <li><a href="#">Capitulo 4</a></li>
-            </ul>
-             </li>
+         <li><a href="#">Temporadas</a</li>     
         </ul>
       </nav>
     </header>
@@ -60,12 +37,25 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 <p>En esta guía de información,aprenderás todo sobre tus personajes favoritos,encontrando las características que los identifican, especies, estados, origenes, etc. ¡Además podras ver cada episodio y temporada!</p>
-   <div id="root">
+  
+<div id="root">
+  </section>
+  <label>personajes:
+      <select name="selector" id="filterSelector">
+        <option value="">Seleccione</option>
+        <option value="Human">Humanos</option>
+        <option value="Alien">Aliens</option>
+        <option value="Humanoid">Humanoides</option>
+      </select>
+    </label>
    <!-- para imprimir los nombres de los personajes -->
+   <h5 class="texto"></h5>
+   <!-- para imprimir lade los personajes -->
    <h3></h3>
-        </div> 
-    
- </section>
+
+                
+  </section>
+  </div>
     
     
     <script src="./data/rickandmorty/rickandmorty.js"></script>
