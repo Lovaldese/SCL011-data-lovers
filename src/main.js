@@ -81,8 +81,11 @@ document.getElementById("filterSelector").innerHTML
 </label>
   console.log(condition);
 
-  speciesResult= window.innerHTML.filter.species(data,condition);  
 });
+ // filtrar
 
+ //let personajesRick= ["gender", "name"];
+ //const result = personajesRick.filter(personajesRick => personajesRick.length >493);
+ //console.log(result);
 
 // document.getElementById(selector).innerHTML=

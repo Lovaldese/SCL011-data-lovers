@@ -1,13 +1,31 @@
 
 /*barra de menu desplegable*/
 /* estilos generales*/  
+body{
+    background-image: url("imagenes2/34.png");
+    
+    
+
+}
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+    
+
+}
  nav ul{
     list-style: none; /* para quitar las viñetas*/
     padding: 0; /* para quitarle la sangria y queden en una misma columna*/
+    
 }
 nav li{
    line-height: 3rem;/* altura de linea */
    position: relative;
+   font-size: 20px;
+   font-family: sans-serif;
 }  
 nav li ul{
     position: absolute;
@@ -15,9 +33,10 @@ nav li ul{
 nav  a {
    color: floralwhite;
    display: block;
-    padding: 0 2.5em;
+   padding: 0 2.5em;
     text-decoration: none; /* para quitar el subrayado*/
     transition: .4s;/* para que el cambio del sombreado no sea tan rapido*/
+   
 
 }
 nav a:hover{
@@ -34,14 +53,16 @@ nav li:hover >ul {
 nav > ul{
   background:green;
     display: table; /* un elemento tomelas dimensiones de su contenido*/
-    width: 100%; /* para que tome el ancho de la pagina*/
+    width: 98%; /* para que tome el ancho de la pagina*/
+    margin-left: 30px;
 }
 nav > ul li{  /* solo los hijos de los ul y nav */
     float: left; /* esto hace que se pongan horizontal */
+    
 }
 /*segundo nivel */
 nav li li{
-    background: green;
+
     max-height: 0;/*su altura maxima sera 0*/
     transition: hidden;
     transition: all .4s;
@@ -53,7 +74,7 @@ nav li:hover >ul >li{
     overflow: visible;
 }
 nav >ul >li >ul{
-    top:100%;
+    top:50%;
 }
 /*tercer nivel*/
 /* nav ul ul ul{
@@ -64,18 +85,42 @@ sub { font-size: 50px;
 
 }
 
-
 /* tarjetas*/
-.container-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-}
 
-    /* para agrandar o achicar el video  */
-iframe{
-    width: 560px;
-    height: 315px;
+/* para agrandar o achicar el video  */
+.video{
+    width: 540px;
+    height: 440px;
+    margin-left: 720px;
+    margin-right: -3000px;
+    margin-top: -310px;
 }
-   
+   /*parrafos*/
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right:620px;
+    text-align: left;
 
+}
+h1{ color:white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+
+}
+.banner{
+    margin-top:-10px;
+    width: 300px;
+    overflow: hidden;
+    height: 100px;
+    position: absolute;
+}
+.li-menu{
+margin-left: 250px;
+}
+.personajes{
+    margin-left: -20px;
+}
