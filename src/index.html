@@ -5,40 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Data Lovers </title>
-    <img src="" alt="">
+    
     <link rel="stylesheet" href="style.css"/>
-    <header>
-        <!-- titulo -->
-        <div><img class="banner" src= "imagenes2/rii.png">;</div>
-        <!-- menu desplegable -->
-        <nav>
-          
-          <ul class="menu">
-           <li class="li-menu" id= "Inicio"><a href="#">Inicio</a></li>
-           <li class="personajes" id="personajes"><a href="#">Personajes</a></li>
-           <li class="temporadas"><a href="#">Temporadas</a></li>
-           <li class="datoscuriosos"><a href="#">Datos curiosos</a</li>     
-          </ul>
-        </nav>
-      </header>
-
+       
   </head>
 
   <body>
+      <header>
+          <!-- titulo -->
+          <div><img class="banner" src= "imagenes2/rii.png"></div>
+          <!-- menu desplegable -->
+          <nav>
+            <ul class="menu">
+             <li class="li-menu" id= "Inicio"><a href="#">Inicio</a></li>
+             <li class="personajes" id="personaje"><a href="#">Personajes </a></li>
+             <li class="temporadas"><a href="#">Temporadas</a></li>
+             <li class="datoscuriosos"><a href="#">Datos curiosos</a</li>     
+            </ul>
+          </nav>
+        </header>
+        
+  
+      <div id="root"></div>
     <section>
       <article>
        <h1>¿Sabías qué?</h1>
         
-<p>Rick y Morty está considerada como una de las mejores series de animación de la década,
+<p>Rick and Morty está considerada como una de las mejores series de animación de la década,
   creada por Justin Roiland y Dan Harmon,estrenada en el año 2013.
   <br/>
   <br/>
   Las surrealistas aventuras interdimensionales de Rick Sánchez,un genio científico alcohólico y 
-  su nervioso nieto Morty de gran corazón pero con ansiedad crónica.,no sólo nos proporcionan 
+  su nervioso nieto Morty de gran corazón pero con ansiedad crónica,no sólo nos proporcionan 
   un entretenimiento de gran calidad, sino que ofrecen una evidente deconstrucción de la sitcom clásica.
 
   <br/>
-  Si quieres saber más, dale click al video y sumergete en una dimension que hara explotar tus sentidos!
+  Si quieres saber más, dale click al video y sumergete en una dimensión que hara explotar tus sentidos!
   <br/>
   <br/>
   En esta guía de información,aprenderás todo sobre tus personajes favoritos,encontrando las características que los identifican, especies, estados, origenes, etc. ¡Además podras ver cada episodio y temporada!
@@ -52,12 +54,18 @@
 </article>
   </section>
 
-                
+  <section> 
+    <label>Elije una categoria:
+      <select name="selector" class= "filertSelector" id="filterSelector">
+          <option value="">Seleccione</option>
+          <option value="Human">Humanos</option>
+          <option value="Alien">Aliens</option>
+          <option value="Humanoid">Humanoides</option>
+        </select>
+      </label>
+                  
   </section>
-  </div>
-    
-    
-    <script src="./data/rickandmorty/rickandmorty.js"></script>
+  <script src="./data/rickandmorty/rickandmorty.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
   </body>

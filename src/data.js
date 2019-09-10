@@ -1,6 +1,6 @@
 /* Manejo de data */
 //Para recorrer la data
-//  le= RICKANDMORTY.results 
+//  let= RICKANDMORTY.results 
 //for(let i=0;i< RICKANDMORTY.results.length; i++){
 //console.log(RICKANDMORTY.results[i]); //toda la data
 //console.log(RICKANDMORTY.results[i].id); //de id
@@ -12,15 +12,16 @@
 
 
  window.filter = {
-species: (data,condition) =>{
+species: (data) =>{
   
    let speciesResult = [""];
   for(let i=0; i < data.length; i++){
-   if (data[i].species == condition){
-     console.log(data[i].species);
-         };
+    speciesResult += `<img src="${data[i].image}" alt="">
+     ${data[i].name}`
+     document.getElementById("root").innerHTML = speciesResult;
+    
    };
    return speciesResult;
  }
-  }
+  };
   

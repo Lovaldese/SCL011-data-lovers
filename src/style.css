@@ -3,9 +3,6 @@
 /* estilos generales*/  
 body{
     background-image: url("imagenes2/34.png");
-    
-    
-
 }
 header {
 	margin-top:10px;
@@ -34,7 +31,7 @@ nav  a {
    color: floralwhite;
    display: block;
    padding: 0 2.5em;
-    text-decoration: none; /* para quitar el subrayado*/
+   text-decoration: none; /* para quitar el subrayado*/
     transition: .4s;/* para que el cambio del sombreado no sea tan rapido*/
    
 
@@ -51,10 +48,12 @@ nav li:hover >ul {
 
 /*primer nivel*/
 nav > ul{
-  background:green;
+  background:green ;
     display: table; /* un elemento tomelas dimensiones de su contenido*/
     width: 98%; /* para que tome el ancho de la pagina*/
     margin-left: 30px;
+  border-block-end-style: inset;
+
 }
 nav > ul li{  /* solo los hijos de los ul y nav */
     float: left; /* esto hace que se pongan horizontal */
@@ -76,24 +75,15 @@ nav li:hover >ul >li{
 nav >ul >li >ul{
     top:50%;
 }
-/*tercer nivel*/
-/* nav ul ul ul{
-    left: 100%;
-    top: 0;
-} */
-sub { font-size: 50px;
-
-}
-
-/* tarjetas*/
 
 /* para agrandar o achicar el video  */
 .video{
-    width: 540px;
-    height: 440px;
+    width: 40%;
+    height: 324px;
     margin-left: 720px;
-    margin-right: -3000px;
-    margin-top: -310px;
+    margin-right: -1000px;
+    margin-top: -310px; /*margen para alinearlo desde arriba*/
+    
 }
    /*parrafos*/
 p {
@@ -101,26 +91,28 @@ p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
-    margin-right:620px;
+    margin-right:650px;
     text-align: left;
+    text-decoration:none;
 
 }
 h1{ color:white;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-left: 25px;
+    font-size: 20px; /*tamaño de las letras*/
+    font-family: sans-serif; /*familia de la fuente*/
+    margin-left: 25px;  /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
 
 }
 .banner{
-    margin-top:-10px;
-    width: 300px;
-    overflow: hidden;
-    height: 100px;
-    position: absolute;
+    margin-top:-10px; /*grosor del banner*/
+    width: 300px; /*ancho*/
+    height: 100px; /*alto*/
+    position: absolute; /* Posicion para que se mantenga estatico*/
 }
 .li-menu{
-margin-left: 250px;
+margin-left: 250px; /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
 }
 .personajes{
-    margin-left: -20px;
+    margin-left: -20px; /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
+    -ms-flex-item-align: stretch;
 }
+
