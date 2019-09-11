@@ -2,7 +2,7 @@
 /*barra de menu desplegable*/
 /* estilos generales*/  
 body{
-    background-image: url("imagenes2/34.png");
+    background-image: url("imagenes2/25.jpg");
 }
 header {
 	margin-top:10px;
@@ -52,11 +52,11 @@ nav > ul{
     display: table; /* un elemento tomelas dimensiones de su contenido*/
     width: 98%; /* para que tome el ancho de la pagina*/
     margin-left: 30px;
-  border-block-end-style: inset;
+
 
 }
 nav > ul li{  /* solo los hijos de los ul y nav */
-    float: left; /* esto hace que se pongan horizontal */
+    float: right; /* esto hace que se pongan horizontal */
     
 }
 /*segundo nivel */
@@ -108,9 +108,7 @@ h1{ color:white;
     height: 100px; /*alto*/
     position: absolute; /* Posicion para que se mantenga estatico*/
 }
-.li-menu{
-margin-left: 250px; /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
-}
+
 .personajes{
     margin-left: -20px; /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
     -ms-flex-item-align: stretch;

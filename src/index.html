@@ -11,23 +11,27 @@
   </head>
 
   <body>
+
+    <div class="contenedor">
       <header>
-          <!-- titulo -->
+        <!-- titulo -->
           <div><img class="banner" src= "imagenes2/rii.png"></div>
-          <!-- menu desplegable -->
-          <nav>
-            <ul class="menu">
-             <li class="li-menu" id= "Inicio"><a href="#">Inicio</a></li>
-             <li class="personajes" id="personaje"><a href="#">Personajes </a></li>
-             <li class="temporadas" id= "temporadas"><a href="#">Temporadas</a></li>
-             <li class="datoscuriosos" id= "datoscuriosos"><a href="#">Datos curiosos</a</li>     
-            </ul>
-          </nav>
-        </header>
-        
+         <nav>
+           
+           <ul>
+             <li id="Inicio"><a href ="#">Inicio</a></li>
+             <li id="personaje"><a href="#">Personajes</a></li>
+             <li id="temporadas"><a href="#">Temporadas</a></li>
+             <li id="datoscuriosos"><a href="#">Datos curiosos</a></li>
+
+           </ul>
+         </nav>
+       </header>
+      </div>
   
       <div id="root"></div>
     <section>
+
       <article>
        <h1>¿Sabías qué?</h1>
         
@@ -55,16 +59,14 @@
   </section>
 
   <section> 
-      <div class="select">
-          <select id="filterSelector">
-          <option selected species>Seleccione species</option>
+    <label>Elije una categoria:
+      <select name="selector" class= "filertSelector" id="filterSelector">
+          <option value="">Seleccione</option>
           <option value="Human">Humanos</option>
           <option value="Alien">Aliens</option>
           <option value="Humanoid">Humanoides</option>
-      </select>
-      </div>
-        
-      
+        </select>
+      </label>
                   
   </section>
   <script src="./data/rickandmorty/rickandmorty.js"></script>
