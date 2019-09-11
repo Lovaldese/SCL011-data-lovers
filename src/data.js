@@ -11,17 +11,34 @@
 //console.log(RICKANDMORTY.results[i].type); //del tipo
 
 
- window.filter = {
-species: (data) =>{
-  
-   let speciesResult = [""];
-  for(let i=0; i < data.length; i++){
-    speciesResult += `<img src="${data[i].image}" alt="">
-     ${data[i].name}`
-     document.getElementById("root").innerHTML = speciesResult;
+//   window.filter = {
+//  personajes: (data) =>{
+//       let persoResult = [""];
+//   for(let i = 0; i < data.length; i++){
+//    persoResult += `<img src="${data[i].image}" alt=""> 
+//                         ${data[i].name}
+//                          ${data[i].species}`
+//     document.getElementById("root").innerHTML = persoResult;
     
-   };
-   return speciesResult;
- }
-  };
+//   };
+//    return persoResult;
+//  }
+//   };
+
+    window.filter = {
+   species: (data,condition) =>{
+    
+  let speciesResult = [""];
+    for(let i=0; i < data.length; i++){
+  if (data[i].species == condition){
+          console.log(data[i].species);
+              document.getElementById("root").innerHTML = speciesResult;
+    
+          };
+    };
+     return speciesResult;
+   }
+   
+    }
+    
   
