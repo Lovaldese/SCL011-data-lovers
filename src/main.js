@@ -5,17 +5,22 @@
 
 const data = window.RICKANDMORTY.results;
 
+
+
+
+
+ 
+
 //Crear un contenedor padre para root donde se va imprimir lo que yo quiera
 const contenedor_padre = document.getElementById("root");
 
-//Creando funcionalidad del boton de inico 
-// document.getElementById("Inicio").addEventListener("click", () =>{
-//   document.getElementById("Personajes").style.display="none";
-//   document.getElementById("temporadas").style.display="none"
-//   document.getElementById("Inicio").style.display="block";
-  
-  
-//   })
+// //Creando funcionalidad del boton de inico
+//  document.getElementById("Inicio").addEventListener("click", () =>{
+//  document.getElementById("Personajes").style.display="none";
+//  document.getElementById("temporadas").style.display="none";
+//  document.getElementById("Inicio").style.display="block";
+
+// })
 
 //FUNCION MOSTRAR
 //1. guardamos el botòn mostrar de html, lo guardamos en una variable
@@ -23,41 +28,43 @@ const contenedor_padre = document.getElementById("root");
 //2.hacemos que el boton escuche el click
 // imprimi el listado ordenado
 
-// document.getElementById("personaje").addEventListener("click", ()=>{
-// let persoResult = window.filter.personajes(data);
+ document.getElementById("personaje").addEventListener("click", ()=>{
+ let persoResult = window.filter.personajes(data);
+
+ console.log(persoResult);
+
+
+  })
+
+//FUNCION FILTRAR
+//  asigno a una variable el id del select
+//le asigno un evento al select
+const filterSpecies = document.getElementById("filterSelector");
+console.log(filterSpecies)
+filterSpecies.addEventListener("change",() =>{
+  // document.getElementById("root").innerHTML = " ";
+
  
-//  console.log(persoResult);
-
-  
-//  })
-
+condition = document.getElementById(filterSpecies);//asigno la condicion y me imprime el valor que escoja el usuario
+let filterSelector= document.getElementById("filterSelector").value
+  speciesResult = window.filter.species(data,filterSelector);
 
 
-
-document.getElementById("filterSelector").addEventListener("change",() =>{
-  document.getElementById("root").innerHTML = " "  
-    
-  let species=document.getElementById("filterSelector").value
-  for(let i = 0; i < data.length; i++){
-    
-  document.getElementById("root").innerHTML += ` 
-  <div class="col s12 m4">
-  <h4 class="header"><b># ${data[i].name}</b></h4>
-  <div class="card horizontal">
-   <div class="card-image">
-   <img src="${data[i].image}" alt="">
-    </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <h5>${data[i].species}</h5>
-        </div> 
-     </div>
+   for(let i = 0; i < data.length; i++){
+      document.getElementById("root").innerHTML += `
+   <div>
+  <h4><b> ${data[i].name}</b></h4>
+   <img src="${data[i].image}" alt="image">
+   <h5>${data[i].species}</h5>
    </div>
-  </div>
+
 
       `;
 
-  }
-  
-});
+   }
+
+ });
+
+
+
 
