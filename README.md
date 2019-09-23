@@ -1,4 +1,4 @@
-# **Data Lovers**
+<!-- # **Data Lovers**
 
 ## **Índice**
 
@@ -116,4 +116,87 @@ Buscamos que la informacion sirva para ayudar a entender mejor lo que ve.
 El resultado de las encuestas nos ayudo a entender mejor la necesidad del usuario, dandole alternativas
 en donde pudiese el escoger lo que quiere ver en la pantalla.
 
-La encuesta fue hecha fue de mucha ayuda ya que nos oriento a seleccionar la necesidad real de lo que ellos buscan.
+La encuesta fue hecha fue de mucha ayuda ya que nos oriento a seleccionar la necesidad real de lo que ellos buscan. -->
+
+
+## Rick y Morty
+
+ Rick y Morty es una serie de televisión estadounidense de animación para adultos creada por Justin Roiland y Dan Harmon para Adult Swim. La serie sigue las desventuras de un científico, Rick, y su fácilmente influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales intergalácticos.
+
+Rick y Morty es una aplicación web que busca brindarle información  a los aficionados de la serie donde puedan visualizar la data,filtrarla, ordenarla alfabeticamente y generar una estadística (cálculo sobre las especies). Nuestra idea es a traves de encuestas, saber que es lo que realmente quierever el usuario en la aplicacion web para brindarle la mejor experiencia de usuario
+
+
+## Definicion de usuario 
+
+Comenzamos enfocando nuestra aplicación a los aficionados de edad comprendida de 16 a 35 años. Mediante la realización de los tests de usuario fuimos infiriendo que los aficionados de la seria no son solamente entre las edades de 16 a 35 años, ya que usuarios de mayor edad tambien les interesan  nuestra aplicación, por lo que definimos que el usuario final serían usuarios mayores de 16 años de edad que necesitaran conocer información valiosa y precisa de los Personajes,sus caracteristicas,capitulos de la serie.
+ Creemos que nuestra aplicacion resuelve  problema del usuario  porque les aclara el rol que cumple cada personaje en la serie, de esta manera los orienta e introduce, en caso de no tener  conocimiento alguno de ella,buscamos que la informacion sirva para ayudar a entender mejor lo que ve.
+
+El resultado de las encuestas nos ayudo a entender mejor la necesidad del usuario, dandole alternativas en donde pudiese escoger el contenido que el necesite en la apliacion .
+
+La encuesta realizada fue de mucha ayuda ya que nos oriento a seleccionar la necesidad real de lo que ellos buscan.
+
+
+## Historias de usuarios 
+
+### Historia 1
+
+**Yo como:** Usuario de la aplicación web.
+
+**Quiero:** Nombre de los personajes, Imagen de ellos, y Caracteristicas que lo diferencian.
+
+**Funcionalidad:** Para tener una vista rápida e introductoria a la serie. De esta manera la información disponible de los Personajes nos ayudara a entender mejor de que se trata.
+
+**Definición de Terminado:** El usuario al abrir la aplicación web podrá visualizar la lista de datos de los personajes ademas de encontrar una frase freak que los identifique.*
+
+###Historia 2
+
+**Yo como:** Usuario de la aplicación web.
+
+**Quiero:** Ordenar los personajes de manera alfabeticamente.
+
+**Funcionalidad:** Para encontrar y conocer más rápido a los personajes  de forma especifica.
+
+**Definición de Terminado:** El usuario podrá seleccionar si ordenar por nombre de forma alfabeticamente o simplemente seleccionar
+la otra opcion disponibe donde aparecen de forma generalizada.
+
+###Historia 3
+
+**Yo como:** Usuario de la aplicación web.
+
+**Quiero:** Una seccion de datos curiosos.
+
+**Funcionalidad:** Para conocer mas sobre los detalles que la serie no muestra.
+
+**Definición de Terminado:** El usuario podrá entrar a nuestra seccion de datos curiosos encontrando estadísticas de la serie
+en cuanto a su especie y origen basado en porcentajes.
+
+
+    code (4 spaces indent)
+[links](https://wikipedia.org)
+
+## Definicion del deseño de la interfaz
+
+Para definir el diseño de la interfaz nos preocupamos de enfocarlo a los usuarios que son aficionados de la serie Rick y Morty.Partimos considerando la versión de “escritorio” en caso de que la plicacion fuera utilizada en una pantalla grande y luego como deberia verse desde un dispositivo movil. Tener en cuenta ambos tamaños nos permitió trabajar de mejor manera el diseño responsivo.
+
+###colores
+
+Principalmente los colores son los mismos que se utilizan dentro la serie . Consideramos que sería más cómodo para el usuario el hecho dedesenvolverse en un “ambiente conocido y familiar”
+
+###Tipografía
+
+La tipografía elegida son Arial, Helvetica, sans-serif.
+
+
+## Prototipo de baja fidelidad
+Nuestro siguiente paso fue crear este sketch, aqui comenzamos ideando como debería verse la aplicación y que elementos debía contener, luego quisimos modificarlo en balsamiq.
+
+<a href="https://ibb.co/x6rSdMk"><img src="https://i.ibb.co/WfRWjch/Ideas-prototipo.jpg" alt="Ideas-prototipo" border="0" /></a>
+
+<a href="https://ibb.co/xXwR25c"><img src="https://i.ibb.co/fqZPX0K/Prototipo-prueba-1.jpg" alt="Prototipo-prueba-1" border="0" /></a>
+
+<a href="https://ibb.co/BGbkKXy"><img src="https://i.ibb.co/RNf84x3/Prototipo-prueba-2.jpg" alt="Prototipo-prueba-2" border="0" /></a>
+
+*para acceder a nuestro balsamiq* [click aqui ](https://balsamiq.cloud/s1cpqs0/pqxt9gm/rF1B0)
+
+
+
