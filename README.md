@@ -78,7 +78,7 @@ Luego de nuestro testeo desarrollamos este diseño de Interfaz de usuario con al
 
 ## Test de usabilidad
 
-Para la historia de usuario 1 ,mostrar data,en la pantalla que sale por defecto al ingresar a la web(en el prototipo de baja fidelidad) habíamos colocado imagen de cada personaje, pero usuario nos indico que sería más claro si al ingresar  se veía la imagen del personaje con su nombre y especie,lo cual corregimos.
+Para la historia de usuario 1 ,mostrar data,en la pantalla que sale al hacer click en personajes (en el prototipo de baja fidelidad) habíamos colocado imagen de cada personaje, pero el usuario nos indico que sería más claro si al ingresar  se veía la imagen del personaje con su nombre y especie,lo cual corregimos.
 
 En historia de usuario 2,filtrar personajes ,usuario indico que le gustaria un  selector para escoger el tipo de personaje segun su especies y que debería estar a la izquierda en la pantalla principal y no en el menu, ya que era más intuitivo asi que se cambió.
 
