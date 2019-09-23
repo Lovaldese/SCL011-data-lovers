@@ -1,6 +1,7 @@
 
 ## Rick y Morty
-<a href="https://ibb.co/tYmjVJX"><img src="https://i.ibb.co/BTzW0CN/rick.jpg" alt="rick" border="0"></a>
+
+![Encabezado](https://i.ibb.co/r578Dws/rick.jpg)
 
  Rick y Morty es una serie de televisión estadounidense de animación para adultos creada por Justin Roiland y Dan Harmon para Adult Swim. La serie sigue las desventuras de un científico, Rick, y su fácilmente influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales intergalácticos.
 
@@ -31,7 +32,7 @@ El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad
 
 **Yo como:** Usuario de la aplicación web.
 
-**Quiero:** Ordenar los personajes de manera alfabeticamente.
+**Quiero:** filtrat  los personajes segun su especies.
 
 **Funcionalidad:** Para encontrar y conocer más rápido a los personajes  de forma especifica.
 
@@ -74,6 +75,14 @@ Nuestro siguiente paso fue crear este sketch, aqui comenzamos ideando como deber
 
 ## prototipo de alta fidelidad
 Luego de nuestro testeo desarrollamos este diseño de Interfaz de usuario con algunos cambios con respecto a nuestro primer prototipo, principalmente en colores y tipo de menú, aquí definimos más claramente cómo queríamos que fuera nuestro resultado final. Para diseñar nuestro prototipado utilizamos la herramienta Figma, la cuál nos permitió trabajar de manera colaborativa. Esto nos permitió crear la versión escritorio y móvil.
+
+## Test de usabilidad
+
+Para la historia de usuario 1 ,mostrar data,en la pantalla que sale por defecto al ingresar a la web(en el prototipo de baja fidelidad) habíamos colocado imagen de cada personaje, pero usuario nos indico que sería más claro si al ingresar  se veía la imagen del personaje con su nombre y especie,lo cual corregimos.
+
+En historia de usuario 2,filtrar personajes ,usuario indico que le gustaria un  selector para escoger el tipo de personaje segun su especies y que debería estar a la izquierda en la pantalla principal y no en el menu, ya que era más intuitivo asi que se cambió.
+
+El usuario indico que para retornar a la primera pantalla al momento de ver los personajes solo era necesario en el menu el boton de inicio y no al finalizar de ver las imagenes.
 
 ## Figma
 
