@@ -129,7 +129,7 @@ h1{ color:white;
       margin-left: 25px;
  }
 /*Responsive Ipad pro*/
-
+/* 
 @media only screen and (max-width:1367px) {
     body { 
         background-image: url("imagenes2/25.jpg");
@@ -146,48 +146,15 @@ p{
 }
 h1{ 
     font-size: 30px; /*tamaño de las letras*/
-    margin-left: 5%;  /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/}
+   /* margin-left: 5%;  /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
+/*}
+/*Responsive Iphone 6 7 8 plus
 
-.video{
-    
-    margin-left: 40%;
-    margin-right:45%;
-    position: absolute;
-    margin-top: -10px; /*margen para alinearlo desde arriba*/
-      
-}
-.myselect{
-    margin-left: 50px;
-    margin-top: 10px;
-    font-size:24px;
-}
-.banner{
-    margin-top:-10px; /*grosor del banner*/
-    width: 30%; /*ancho*/
-    position: absolute; /* Posicion para que se mantenga estatico*/
-}
-
-}
-/*Responsive Iphone 6 7 8 plus*/
-
-@media only screen and (max-width:736px) {
-    body { 
-        background-image: url("imagenes2/25.jpg");
-    }
-    
-header{
-    width:150%;
-    margin-right: 100%;
-
-}
-p{
-    margin-left: 10%;
-    margin-right: -30%;
-    font-size: 18px;
 }
 h1{ 
     font-size: 18px; /*tamaño de las letras*/
-    margin-left: 10%;  /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/}
+    /*margin-left: 10%;  /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
+/*}
 
 .video{
     min-width: 80%;
@@ -195,7 +162,7 @@ h1{
     margin-right: -30%;
     position: absolute;
     margin-top: 30px; /*margen para alinearlo desde arriba*/
-      
+      /*
 }
 .myselect{
     margin-left: 40px;
@@ -204,13 +171,13 @@ h1{
 }
 .banner{
     margin-top:10px; /*grosor del banner*/
-    width: 45%; /*ancho*/
-    position: absolute; /* Posicion para que se mantenga estatico*/
-}
+    /*width: 45%; /*ancho*/
+   /* position: absolute; /* Posicion para que se mantenga estatico*/
+/*}
 header > nav >ul >li >a{
 font-size: 9px;
 padding: 26px;
 margin-top: 25px;
 
 }
-}
+} */
