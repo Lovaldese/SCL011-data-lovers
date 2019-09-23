@@ -39,12 +39,7 @@ nav  a {
 nav a:hover{
     background: greenyellow;
 }
-/* nav li ul{
-   display: none; /* cualquier ul que este dentro de otro ul ocultarlo
-}
-nav li:hover >ul {
-    display: block;
-} */
+
 
 /*primer nivel*/
 nav > ul{
@@ -113,4 +108,25 @@ h1{ color:white;
     margin-left: -20px; /*margen de cuanto yo quiero que se mueva el texto hacia ese lado*/
     -ms-flex-item-align: stretch;
 }
+
+ .showcharacters{
+    width: 190px;
+    height: 190px;
+    background-image: linear-gradient(#f5f5f5, #FFFFFF);
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 18px;
+    padding: 5px;
+    box-shadow: 9px 9px 21px -9px #e0fbfd;
+    text-align: center;
+    font-size: 18px;  
+
+ } 
+ .myselect{
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: sans-serif;
+      margin-left: 25px;
+ }
 
