@@ -10,10 +10,10 @@ Rick y Morty es una aplicación web que busca brindarle información  a los afic
 
 ## Definicion de usuario 
 
-Comenzamos enfocando nuestra aplicación a los aficionados de edad comprendida de 16 a 35 años. Mediante la realización de los tests de usuario fuimos infiriendo que los aficionados de la seria no son solamente entre las edades de 16 a 35 años, ya que usuarios de mayor edad tambien les interesan  nuestra aplicación, por lo que definimos que el usuario final serían usuarios mayores de 16 años de edad que necesitaran conocer información valiosa y precisa de los Personajes,sus caracteristicas,capitulos de la serie.
+Comenzamos enfocando nuestra aplicación a los aficionados de edad comprendida de 16 a 35 años. Mediante la realización de los tests de usuario fuimos infiriendo que los aficionados de la serie no son solamente entre las edades de 16 a 35 años, ya que usuarios de mayor edad tambien les interesan  nuestra aplicación, por lo que definimos que el usuario final serían usuarios mayores de 16 años de edad que necesitaran conocer información valiosa y precisa de los Personajes,sus caracteristicas,capitulos de la serie.
  Creemos que nuestra aplicacion resuelve  problema del usuario  porque les aclara el rol que cumple cada personaje en la serie, de esta manera los orienta e introduce, en caso de no tener  conocimiento alguno de ella,buscamos que la informacion sirva para ayudar a entender mejor lo que ve.
 
-El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad del usuario, dandole alternativas en donde pudiese escoger el contenido que el necesite en la apliacion .Dichas encuestas fue de mucha ayuda ya que nos oriento a seleccionar la necesidad real de lo que los usuarios  buscan.*para acceder a nuestrs encuestas* [click aqui ](https://docs.google.com/forms/d/1Y3Z6RJXadjELC6KrowbKjxcU2KmKy3Y1UO2KrmwNyys/edit).
+El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad del usuario, dandole alternativas en donde pudiese escoger el contenido que el necesite en la apliacion .Dichas encuestas fue de mucha ayuda ya que nos oriento a seleccionar la necesidad real de lo que los usuarios  buscan.*para acceder a nuestras encuestas* [click aqui ](https://docs.google.com/forms/d/1Y3Z6RJXadjELC6KrowbKjxcU2KmKy3Y1UO2KrmwNyys/edit).
 
 
 ## Historias de usuarios 
@@ -32,12 +32,11 @@ El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad
 
 **Yo como:** Usuario de la aplicación web.
 
-**Quiero:** filtrat  los personajes segun su especies.
+**Quiero:** filtrar  los personajes segun su especies.
 
 **Funcionalidad:** Para encontrar y conocer más rápido a los personajes  de forma especifica.
 
-**Definición de Terminado:** El usuario podrá seleccionar si ordenar por nombre de forma alfabeticamente o simplemente seleccionar
-la otra opcion disponibe donde aparecen de forma generalizada.
+**Definición de Terminado:** El usuario podrá seleccionar filtrar los personajes segun su especies
 
 ### Historia 3
 
@@ -61,7 +60,7 @@ Principalmente los colores son los mismos que se utilizan dentro la serie . Cons
 
 ### Tipografía
 
-La tipografía elegida son Arial, Helvetica, sans-serif.
+La tipografía elegida son Arial, Helvetica.
 
 
 ## Prototipo de baja fidelidad
@@ -78,7 +77,7 @@ Luego de nuestro testeo desarrollamos este diseño de Interfaz de usuario con al
 
 ## Test de usabilidad
 
-Para la historia de usuario 1 ,mostrar data,en la pantalla que sale al hacer click en personajes (en el prototipo de baja fidelidad) habíamos colocado imagen de cada personaje, pero el usuario nos indico que sería más claro si al ingresar  se veía la imagen del personaje con su nombre y especie,lo cual corregimos.
+Para la historia de usuario 1 ,mostrar data de personajes,en la pantalla que sale al hacer click en personajes (en el prototipo de baja fidelidad) habíamos colocado imagen de cada personaje, pero el usuario nos indico que sería más claro si al ingresar  se veía la imagen del personaje con su nombre y especie,lo cual corregimos.
 
 En historia de usuario 2,filtrar personajes ,usuario indico que le gustaria un  selector para escoger el tipo de personaje segun su especies y que debería estar a la izquierda en la pantalla principal y no en el menu, ya que era más intuitivo asi que se cambió.
 
