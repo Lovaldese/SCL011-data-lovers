@@ -11,28 +11,28 @@
   </head>
 
   <body>
+<<<<<<< HEAD
+
+   
+    <div class="contenedor">
+=======
     <div id="root"></div>
     
+>>>>>>> b5e85448c03a7b613d768720da7969d1165a6485
       <header>
         <!-- titulo -->
           <div><img class="banner" src= "imagenes2/rii.png"></div>
-         <nav>
-           
+         <nav> 
            <ul>
-             <li id="Inicio"><a href ="#">Inicio</a></li>
-             <li id="personaje"><a href="#">Personajes</a></li>
-             <li id="temporadas"><a href="#">Temporadas</a></li>
-             <li id="datoscuriosos"><a href="#">Datos curiosos</a></li>
-
+             <li id="start"><a href ="#">Inicio</a></li>
+             <li id="characters"><a href="#">Personajes</a></li>
+             <li id="chapters"><a href="#">Temporadas</a></li>
+             <li id="fun facts"><a href="#">Datos curiosos</a></li>
            </ul>
          </nav>
        </header>
-      
-  
-      
-    <section>
-
-      <article>
+      </div>
+      <div id="root">
        <h1>¿Sabías qué?</h1>
         
 <p>Rick and Morty está considerada como una de las mejores series de animación de la década,
@@ -55,20 +55,20 @@
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
-</article>
-  </section>
 
-  <section> 
-    <label>Elije una categoria:
+     <div class="myselect">
+    <label>Elije una categoria:</label>
       <select id="filterSelector">
           <option value="">Seleccione</option>
           <option value="Human">Humanos</option>
           <option value="Alien">Aliens</option>
           <option value="Humanoid">Humanoides</option>
         </select>
-      </label>
-                  
-  </section>
+  </div>
+  
+  <div id="printScreenCharacters"></div>
+</div>             
+  
   <script src="./data/rickandmorty/rickandmorty.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
