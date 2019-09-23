@@ -8,7 +8,7 @@ const data = window.RICKANDMORTY.results;
 // const species= window.filter.species(data,filterSelector);
 
 //Crear variables para los contenedores 
-  const contenedorPadre = document.getElementById("root");
+  // const contenedorPadre = document.getElementById("root");
   const contenedorPersonajes = document.getElementById("printScreenCharacters")
 
 // asignar variables a mis botones y select
