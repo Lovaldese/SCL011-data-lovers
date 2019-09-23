@@ -1,7 +1,6 @@
 
 ## Rick y Morty
-
-<a href="https://ibb.co/6sN0d8N"><img src="https://i.ibb.co/q1xYZCx/banner.jpg" alt="banner" border="0" /></a>
+<a href="https://ibb.co/tYmjVJX"><img src="https://i.ibb.co/BTzW0CN/rick.jpg" alt="rick" border="0"></a>
 
  Rick y Morty es una serie de televisión estadounidense de animación para adultos creada por Justin Roiland y Dan Harmon para Adult Swim. La serie sigue las desventuras de un científico, Rick, y su fácilmente influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales intergalácticos.
 
@@ -28,7 +27,7 @@ El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad
 
 **Definición de Terminado:** El usuario al abrir la aplicación web podrá visualizar la lista de datos de los personajes ademas de encontrar una frase freak que los identifique.*
 
-###Historia 2
+### Historia 2
 
 **Yo como:** Usuario de la aplicación web.
 
@@ -39,7 +38,7 @@ El resultado de las encuestas realizadas nos ayudo a entender mejor la necesidad
 **Definición de Terminado:** El usuario podrá seleccionar si ordenar por nombre de forma alfabeticamente o simplemente seleccionar
 la otra opcion disponibe donde aparecen de forma generalizada.
 
-###Historia 3
+### Historia 3
 
 **Yo como:** Usuario de la aplicación web.
 
